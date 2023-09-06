@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport">
+        <title>Task 11</title>
+        <style>
+            body
+            {
+                margin-top: 100px;
+                margin-left: 100px;
+            }
+            .parent
+            {
+                border-style: solid;
+                border-color: black;
+                border-width: 2px;
+                background-color:rgb(171, 7, 171);
+                display: inline-block;
+                border:none;
+            }
+            .child
+            {
+                height: 230px;
+                width: 430px;
+                /* text-align: center; */
+                vertical-align: middle;
+                padding-top: 50px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 100px;
+                margin-right: 100px;
+                background-color:magenta;
+                border: none;
+                padding-left: 60px;
+            }
+            .savebutton
+            {
+                width: 83%;
+                padding-bottom: 5px;
+                padding-top: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+                <form action="form"></form>
+                <label for="fullname">Name:&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="text" name="fullname" placeholder="your name">
+                <br>
+                <label for="Username">Email:;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="email" name="username" placeholder="your email">
+                <br>
+                <label for="password">Password:&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="password" name="password">
+                <br>
+                <label for="password">Phone Number:&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="password" name="password">
+                <br>
+                <label for="gender" >Gender:&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <label for="gender" >Male:</label>
+                <input type="radio" name="gender">
+                <label for="gender" >Female:</label>
+                <input type="radio" name="gender">
+                <label for="gender" >Others:</label>
+                <input type="radio" name="gender">
+                <br>
+                <label for="gender">Language:&nbsp;&emsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <select name="gender" id="gender">
+                    <option value="English">English</option>
+                    <option value="Tamil">Tamil</option>
+                    <option value="tel">Telugu</option>
+                    <option value="mal">Malayalam</option>
+                </select>
+                <br>
+                <label for="zc">Zip Code:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="number" name="zc">
+                <br>
+                <label for="fullname">About&nbsp;&nbsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <input type="text" name="age" placeholder="Write about yourself...">
+                <br>
+                
+                <br>
+                <button class="savebutton">Register</button>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
